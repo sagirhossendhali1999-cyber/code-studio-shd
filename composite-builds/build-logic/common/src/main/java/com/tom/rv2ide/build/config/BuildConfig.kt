@@ -25,8 +25,8 @@ import org.gradle.api.JavaVersion
 object BuildConfig {
 
   /** AndroidIDE's package name. */
-  // const val packageName = "com.tom.rv2ide"
-  const val packageName = "com.tom.rv2ide"
+  // const val packageName = "com.shd.codestudio"
+  const val packageName = "com.shd.codestudio"
 
   /** The compile SDK version. */
   const val compileSdk = 34
