@@ -1,24 +1,38 @@
 name: Build Code Studio APK
 on:
   push:
-    branches: [ dev, main ]
+    branches: [dev, main]
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - uses: actions/checkout@v5
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - uses: actions/setup-java@v5
         with:
           distribution: 'temurin'
-          java-version: '21'
+          java-version: '25'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
       - name: Make gradlew executable
         run: chmod +x ./gradlew
+
       - name: Build Debug APK
-        run: ./gradlew :core:app:assembleDebug --stacktrace
+        run: ./gradlew :core:app:assembleDebug --stacktrace --warning-mode all
+
       - name: Upload APK
+        if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: Code-Studio-APK
-          path: core/app/build/outputs/apk/debug/*.apk
+          name: Code-Studio-com.shd.codestudio-APK
+          path: |
+            core/app/build/outputs/apk/debug/*.apk
+            **/build/outputs/apk/debug/*.apk
+            
