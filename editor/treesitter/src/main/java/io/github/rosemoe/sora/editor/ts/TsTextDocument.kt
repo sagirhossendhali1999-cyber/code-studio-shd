@@ -17,11 +17,11 @@
 
 package io.github.rosemoe.sora.editor.ts
 
-import com.tom.rv2ide.treesitter.TSLanguage
-import com.tom.rv2ide.treesitter.TSParser
-import com.tom.rv2ide.treesitter.TSTree
-import com.tom.rv2ide.treesitter.string.UTF16String
-import com.tom.rv2ide.treesitter.string.UTF16StringFactory
+import com.shd.codestudio.treesitter.TSLanguage
+import com.shd.codestudio.treesitter.TSParser
+import com.shd.codestudio.treesitter.TSTree
+import com.shd.codestudio.treesitter.string.UTF16String
+import com.shd.codestudio.treesitter.string.UTF16StringFactory
 
 /**
  * A text document which maintains a [TSTree] and the associated [UTF16String].

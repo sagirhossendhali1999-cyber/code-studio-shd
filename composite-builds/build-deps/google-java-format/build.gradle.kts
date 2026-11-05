@@ -17,7 +17,7 @@
 
 plugins {
     id("com.android.library")
-    id("com.tom.rv2ide.build")
+    id("com.shd.codestudio.build")
 }
 
 android {

@@ -21,9 +21,9 @@
  */
 package io.github.rosemoe.sora.editor.ts
 
-import com.tom.rv2ide.treesitter.TSPoint
-import com.tom.rv2ide.treesitter.TSQuery
-import com.tom.rv2ide.treesitter.TSQueryError
+import com.shd.codestudio.treesitter.TSPoint
+import com.shd.codestudio.treesitter.TSQuery
+import com.shd.codestudio.treesitter.TSQueryError
 import io.github.rosemoe.sora.text.CharPosition
 
 /** Convert a [CharPosition] object to a [TSPoint] object */

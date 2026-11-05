@@ -13,7 +13,7 @@
  *******************************************************************************/
 package org.eclipse.lemminx.dom;
 
-import com.tom.rv2ide.models.Range;
+import com.shd.codestudio.models.Range;
 
 import org.eclipse.lemminx.utils.XMLPositionUtility;
 

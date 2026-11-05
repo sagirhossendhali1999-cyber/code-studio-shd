@@ -17,10 +17,10 @@
 
 @file:Suppress("UnstableApiUsage")
 
-import com.tom.rv2ide.build.config.BuildConfig
-import com.tom.rv2ide.plugins.AndroidIDEPlugin
-import com.tom.rv2ide.plugins.conf.configureAndroidModule
-import com.tom.rv2ide.plugins.conf.configureJavaModule
+import com.shd.codestudio.build.config.BuildConfig
+import com.shd.codestudio.plugins.AndroidIDEPlugin
+import com.shd.codestudio.plugins.conf.configureAndroidModule
+import com.shd.codestudio.plugins.conf.configureJavaModule
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {

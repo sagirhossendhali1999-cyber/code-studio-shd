@@ -13,7 +13,7 @@
  *******************************************************************************/
 package org.eclipse.lemminx.commons;
 
-import com.tom.rv2ide.models.Position;
+import com.shd.codestudio.models.Position;
 
 import java.util.ArrayList;
 import java.util.List;

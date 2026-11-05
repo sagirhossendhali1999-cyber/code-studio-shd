@@ -1,4 +1,4 @@
-import com.tom.rv2ide.build.config.BuildConfig
+import com.shd.codestudio.build.config.BuildConfig
 
 /*
  *  This file is part of AndroidIDE.

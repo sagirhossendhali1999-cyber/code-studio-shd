@@ -21,10 +21,10 @@
  */
 package io.github.rosemoe.sora.editor.ts
 
-import com.tom.rv2ide.treesitter.TSQueryCursor
-import com.tom.rv2ide.treesitter.TSTree
-import com.tom.rv2ide.treesitter.api.TreeSitterQueryCapture
-import com.tom.rv2ide.treesitter.api.safeExecQueryCursor
+import com.shd.codestudio.treesitter.TSQueryCursor
+import com.shd.codestudio.treesitter.TSTree
+import com.shd.codestudio.treesitter.api.TreeSitterQueryCapture
+import com.shd.codestudio.treesitter.api.safeExecQueryCursor
 import io.github.rosemoe.sora.lang.brackets.BracketsProvider
 import io.github.rosemoe.sora.lang.brackets.PairedBracket
 import io.github.rosemoe.sora.text.Content

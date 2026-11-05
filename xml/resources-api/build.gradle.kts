@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import com.tom.rv2ide.build.config.BuildConfig
+import com.shd.codestudio.build.config.BuildConfig
 
 plugins {
   id("com.android.library")

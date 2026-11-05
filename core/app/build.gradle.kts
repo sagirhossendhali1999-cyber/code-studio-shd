@@ -17,20 +17,20 @@
 
 @file:Suppress("UnstableApiUsage")
 
-import com.tom.rv2ide.build.config.BuildConfig
-import com.tom.rv2ide.desugaring.utils.JavaIOReplacements.applyJavaIOReplacements
-import com.tom.rv2ide.plugins.AndroidIDEAssetsPlugin
+import com.shd.codestudio.build.config.BuildConfig
+import com.shd.codestudio.desugaring.utils.JavaIOReplacements.applyJavaIOReplacements
+import com.shd.codestudio.plugins.AndroidIDEAssetsPlugin
 import java.util.Properties
 
 plugins {
-  id("com.tom.rv2ide.core-app")
+  id("com.shd.codestudio.core-app")
   id("com.android.application")
   id("kotlin-android")
   id("kotlin-kapt")
   id("kotlinx-serialization")
   id("kotlin-parcelize")
   id("androidx.navigation.safeargs.kotlin")
-  id("com.tom.rv2ide.desugaring")
+  id("com.shd.codestudio.desugaring")
 }
 
 apply { plugin(AndroidIDEAssetsPlugin::class.java) }

@@ -9,8 +9,8 @@
  */
 package org.eclipse.lemminx.commons;
 
-import com.tom.rv2ide.models.Position;
-import com.tom.rv2ide.models.Range;
+import com.shd.codestudio.models.Position;
+import com.shd.codestudio.models.Range;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

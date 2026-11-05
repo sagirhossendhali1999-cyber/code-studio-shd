@@ -18,13 +18,13 @@
 package io.github.rosemoe.sora.editor.ts
 
 import android.os.SystemClock
-import com.tom.rv2ide.treesitter.TSInputEdit
-import com.tom.rv2ide.treesitter.TSQueryCursor
-import com.tom.rv2ide.treesitter.TSTree
-import com.tom.rv2ide.treesitter.api.TreeSitterInputEdit
-import com.tom.rv2ide.treesitter.api.TreeSitterQueryCapture
-import com.tom.rv2ide.treesitter.api.safeExecQueryCursor
-import com.tom.rv2ide.treesitter.string.UTF16String
+import com.shd.codestudio.treesitter.TSInputEdit
+import com.shd.codestudio.treesitter.TSQueryCursor
+import com.shd.codestudio.treesitter.TSTree
+import com.shd.codestudio.treesitter.api.TreeSitterInputEdit
+import com.shd.codestudio.treesitter.api.TreeSitterQueryCapture
+import com.shd.codestudio.treesitter.api.safeExecQueryCursor
+import com.shd.codestudio.treesitter.string.UTF16String
 import io.github.rosemoe.sora.data.ObjectAllocator
 import io.github.rosemoe.sora.editor.ts.spans.TsSpanFactory
 import io.github.rosemoe.sora.lang.analysis.StyleReceiver

@@ -21,14 +21,14 @@
  */
 package io.github.rosemoe.sora.editor.ts
 
-import com.tom.rv2ide.treesitter.TSNode
-import com.tom.rv2ide.treesitter.TSQueryCapture
-import com.tom.rv2ide.treesitter.TSQueryCursor
-import com.tom.rv2ide.treesitter.TSTree
-import com.tom.rv2ide.treesitter.api.TreeSitterNode
-import com.tom.rv2ide.treesitter.api.TreeSitterQueryCapture
-import com.tom.rv2ide.treesitter.api.safeExecQueryCursor
-import com.tom.rv2ide.treesitter.string.UTF16String
+import com.shd.codestudio.treesitter.TSNode
+import com.shd.codestudio.treesitter.TSQueryCapture
+import com.shd.codestudio.treesitter.TSQueryCursor
+import com.shd.codestudio.treesitter.TSTree
+import com.shd.codestudio.treesitter.api.TreeSitterNode
+import com.shd.codestudio.treesitter.api.TreeSitterQueryCapture
+import com.shd.codestudio.treesitter.api.safeExecQueryCursor
+import com.shd.codestudio.treesitter.string.UTF16String
 import java.util.Stack
 
 private typealias TSNodeIndices = Pair<Int, Int>

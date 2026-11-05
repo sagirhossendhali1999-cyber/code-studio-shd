@@ -48,21 +48,21 @@ dependencies {
 
 gradlePlugin {
   plugins {
-    create("com.tom.rv2ide.build") {
-      id = "com.tom.rv2ide.build"
-      implementationClass = "com.tom.rv2ide.plugins.AndroidIDEPlugin"
+    create("com.shd.codestudio.build") {
+      id = "com.shd.codestudio.build"
+      implementationClass = "com.shd.codestudio.plugins.AndroidIDEPlugin"
     }
-    create("com.tom.rv2ide.core-app") {
-      id = "com.tom.rv2ide.core-app"
-      implementationClass = "com.tom.rv2ide.plugins.AndroidIDECoreAppPlugin"
+    create("com.shd.codestudio.core-app") {
+      id = "com.shd.codestudio.core-app"
+      implementationClass = "com.shd.codestudio.plugins.AndroidIDECoreAppPlugin"
     }
-    create("com.tom.rv2ide.build.propsparser") {
-      id = "com.tom.rv2ide.build.propsparser"
-      implementationClass = "com.tom.rv2ide.plugins.PropertiesParserPlugin"
+    create("com.shd.codestudio.build.propsparser") {
+      id = "com.shd.codestudio.build.propsparser"
+      implementationClass = "com.shd.codestudio.plugins.PropertiesParserPlugin"
     }
-    create("com.tom.rv2ide.build.lexergenerator") {
-      id = "com.tom.rv2ide.build.lexergenerator"
-      implementationClass = "com.tom.rv2ide.plugins.LexerGeneratorPlugin"
+    create("com.shd.codestudio.build.lexergenerator") {
+      id = "com.shd.codestudio.build.lexergenerator"
+      implementationClass = "com.shd.codestudio.plugins.LexerGeneratorPlugin"
     }
   }
 }

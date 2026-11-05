@@ -50,7 +50,7 @@ dependencyResolutionManagement {
       this.name = build
       dependencySubstitution {
         for (module in modules) {
-          substitute(module("com.tom.rv2ide.build:${module}"))
+          substitute(module("com.shd.codestudio.build:${module}"))
             .using(project(":${module}"))
         }
       }
